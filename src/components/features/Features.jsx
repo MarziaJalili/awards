@@ -1,4 +1,5 @@
 import BentoCard from "./BentoCard";
+import BentoTilt from "./BentoTilt";
 import { TiLocationArrow } from "react-icons/ti";
 
 const Features = () => {
@@ -16,7 +17,7 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+        <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
           <BentoCard
             src="videos/feature-1.mp4"
             title={
@@ -26,10 +27,10 @@ const Features = () => {
             }
             description="A cross-platform metagame app, turning your activities across Web2 games into a rewarding adventure."
           />
-        </div>
+        </BentoTilt>
 
         <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
-          <div className="max-md:col-span-2 border-hsla rounded-md  md:row-span-2 md:row-start-1 md:col-start-1 md:col-end-1">
+          <BentoTilt className="max-md:col-span-2 border-hsla rounded-md  md:row-span-2 md:row-start-1 md:col-start-1 md:col-end-1">
             <BentoCard
               src="videos/feature-2.mp4"
               title={
@@ -39,8 +40,8 @@ const Features = () => {
               }
               description="A anime and gaming-inspired NFT collection - the primed for expansion."
             />
-          </div>
-          <div className="max-md:col-span-2 border-hsla rounded-md max-md:ms-24">
+          </BentoTilt>
+          <BentoTilt className="max-md:col-span-2 border-hsla rounded-md max-md:ms-24">
             <BentoCard
               src="videos/feature-3.mp4"
               title={
@@ -50,9 +51,9 @@ const Features = () => {
               }
               description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
             />
-          </div>
+          </BentoTilt>
 
-          <div className="max-md:col-span-2 border-hsla rounded-md max-md:me-24">
+          <BentoTilt className="max-md:col-span-2 border-hsla rounded-md max-md:me-24">
             <BentoCard
               src="videos/feature-4.mp4"
               title={
@@ -62,9 +63,9 @@ const Features = () => {
               }
               description="A cross-world AI - elevating your gameplay to be more fun and productive."
             />
-          </div>
+          </BentoTilt>
 
-          <div className="bento-tilt_2">
+          <BentoTilt className="bento-tilt_2">
             <div className="flex size-full flex-col justify-between bg-Violet-300 p-5">
               <h1 className="bento-title special-font max-w-64 text-black">
                 M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
@@ -72,9 +73,9 @@ const Features = () => {
 
               <TiLocationArrow className="m-5 scale-[5] self-end" />
             </div>
-          </div>
+          </BentoTilt>
 
-          <div className="bento-tilt_2">
+          <BentoTilt className="bento-tilt_2">
             <video
               src="videos/feature-5.mp4"
               loop
@@ -82,7 +83,7 @@ const Features = () => {
               autoPlay
               className="size-full object-cover object-center"
             />
-          </div>
+          </BentoTilt>
         </div>
       </div>
     </section>
