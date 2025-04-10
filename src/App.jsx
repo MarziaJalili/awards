@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Features from "./components/Features";
+import Features from "./components/features/Features";
 
 const App = () => {
   return (

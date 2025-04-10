@@ -136,14 +136,8 @@ body {
   }
 }
 
-/* 
-
-
-
-
-
 .bento-tilt_1 {
-  @apply relative border-hsla col-span-2 overflow-hidden rounded-md transition-transform duration-300 ease-out;
+  @apply relative border border-white/20 col-span-2 overflow-hidden rounded-md transition-transform duration-300 ease-out;
 }
 
 .bento-tilt_2 {
@@ -192,9 +186,6 @@ body {
 .contact-clip-path-2 {
   clip-path: polygon(29% 15%, 85% 30%, 50% 100%, 10% 64%);
 }
-
-
-
 
 /* From Uiverse.io by G4b413l */
 /* https://uiverse.io/G4b413l/tidy-walrus-92 */
