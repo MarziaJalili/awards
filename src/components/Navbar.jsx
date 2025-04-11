@@ -77,7 +77,11 @@ const Navbar = () => {
           <div className="flex h-full items-center">
             <div className="hidden md:block">
               {navItems.map((item) => (
-                <a href={`#${item.toLowerCase()}`} className="nav-hover-btn">
+                <a
+                  key={item}
+                  href={`#${item.toLowerCase()}`}
+                  className="nav-hover-btn"
+                >
                   {item}
                 </a>
               ))}
@@ -95,6 +99,7 @@ const Navbar = () => {
               />
               {[1, 2, 3, 4].map((bar) => (
                 <div
+                  key={bar}
                   className={`indicator-line ${
                     isIndicatorActive ? "active" : ""
                   }`}
