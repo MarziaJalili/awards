@@ -90,6 +90,7 @@ const Navbar = () => {
             <button
               className="ml-10 flex items-center cursor-pointer space-x-0.5"
               onClick={toggleAudioIndicator}
+              aria-label="Play the Audio"
             >
               <audio
                 src="audio/loop.mp3"

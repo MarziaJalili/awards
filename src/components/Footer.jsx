@@ -44,6 +44,7 @@ const Footer = () => {
 
         <a
           href="#privacy-policy"
+          aria-label="Social Media Icon"
           className="text-center text-sm hover:text-white transition-colors duration-500 ease-in-out md:text-right md:text-lg"
         >
           Privacy Policy
