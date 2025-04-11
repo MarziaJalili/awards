@@ -35,6 +35,7 @@ const Footer = () => {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Social Media Icon"
               className="text-black hover:text-white transition-colors duration-400 ease-in-out md:scale-150 md:mr-2"
             >
               {link.icon}
@@ -44,7 +45,6 @@ const Footer = () => {
 
         <a
           href="#privacy-policy"
-          aria-label="Social Media Icon"
           className="text-center text-sm hover:text-white transition-colors duration-500 ease-in-out md:text-right md:text-lg"
         >
           Privacy Policy
