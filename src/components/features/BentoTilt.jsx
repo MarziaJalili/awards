@@ -7,6 +7,7 @@ const BentoTilt = ({ children, className = "" }) => {
 
   // applying styles...
   const handleMouseMove = (e) => {
+    if (!itemRef.current) return;
     // doing freaking math!!!
     const { left, top, width, height } =
       itemRef.current.getBoundingClientRect();
