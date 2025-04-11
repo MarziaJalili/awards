@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <footer className="w-screen bg-Violet-300 py-4 text-black">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
-        <p className="text-center text-sm md:text-left">
+        <p className="text-center text-sm md:text-left md:text-lg">
           &copy; Nova 2024. All rights reserved
         </p>
 
@@ -35,7 +35,7 @@ const Footer = () => {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black hover:text-white transition-colors duration-400 ease-in-out"
+              className="text-black hover:text-white transition-colors duration-400 ease-in-out md:scale-150 md:mr-2"
             >
               {link.icon}
             </a>
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <a
           href="#privacy-policy"
-          className="text-center text-sm hover:underline md:text-right"
+          className="text-center text-sm hover:text-white transition-colors duration-500 ease-in-out md:text-right md:text-lg"
         >
           Privacy Policy
         </a>
