@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <footer className="w-screen bg-Violet-300 py-4 text-black">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
-        <p className="text-center text-sm md:text-left md:text-lg">
+        <p className="text-center text-sm md:text-left lg:text-lg">
           &copy; April 2025. All rights reserved
         </p>
 
@@ -36,7 +36,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Social Media Icon"
-              className="text-black hover:text-white transition-colors duration-400 ease-in-out md:scale-150 md:mr-2"
+              className="text-black hover:text-white transition-colors duration-400 ease-in-out md:scale-120 lg:scale-150 md:mr-2"
             >
               {link.icon}
             </a>
@@ -45,7 +45,7 @@ const Footer = () => {
 
         <a
           href="#privacy-policy"
-          className="text-center text-sm hover:text-white transition-colors duration-500 ease-in-out md:text-right md:text-lg"
+          className="text-center text-sm hover:text-white transition-colors duration-500 ease-in-out md:text-right lg:text-lg"
         >
           Privacy Policy
         </a>
